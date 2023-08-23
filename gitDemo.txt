@@ -1,0 +1,39 @@
+git init - initialize repo
+git status - shows untracked/modified files(not in the projects history)
+
+git add. - put all files on staging area
+
+git restore --staged fileName-remove from stagin area,without commiting
+
+git commit -m "text"- storing files on git history
+
+git log - history of project
+
+
+rm -rf fileName - delete a file locally
+
+git reset commitID - remove any commits from git, and it moves to unstaged area
+
+git stash - we dont need the code to be staged but also not delete it.
+
+(ex -create a file, push it to stage area and stash)
+git stash pop- we get back all the stashed changes on the staging area
+
+git stash clear - clear the stash area 
+
+---------------------------------------------
+SHARE PERSONAL PROJECTS WITH PEOPLE
+---------------------------------------------
+git remote add origin url PLACEURL-Attach git url to remote project
+
+remote - specifies we work with url
+orgin - specifies the url name
+add - add url to origin, mainly personal accounts have origin
+
+git remote -v -> shows all url's attached to remote url
+
+git push origin master-> push changes to url
+
+origin contains the url
+pushing to master branch
+
